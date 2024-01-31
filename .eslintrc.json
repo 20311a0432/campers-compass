@@ -16,6 +16,10 @@
         "no-unused-vars": "off",
         "no-param-reassign": "off",
         "comma-dangle": "off",
-        "import/no-extraneous-dependencies": "off"
+        "import/no-extraneous-dependencies": "off",
+        "max-len":"off",
+        "no-restricted-syntax":"off",
+        "no-await-in-loop":"off",
+        "func-names":"off"
     }
 }

@@ -25,7 +25,7 @@ router.post('/', isLoggedIn, upload.array('image'), validateCampground, createNe
 
 router.get('/:id/edit', isLoggedIn, verifyAuthor, renderCampgroundEditForm);
 
-router.put('/:id/edit', isLoggedIn, verifyAuthor, validateCampground, updateCampground);
+router.put('/:id/edit', isLoggedIn, verifyAuthor, upload.array('image'), validateCampground, updateCampground);
 
 router.get('/:id', showCampground);
 

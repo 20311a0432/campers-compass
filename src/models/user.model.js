@@ -11,6 +11,7 @@ const userSchema = new Schema({
 		required: true,
 		unique: true
 	}
+
 });
 
 userSchema.plugin(passportLocalMongoose);
